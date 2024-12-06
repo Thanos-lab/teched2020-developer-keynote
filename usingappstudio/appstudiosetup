@@ -50,5 +50,5 @@ main() {
 
     echo "Please now restart the terminal (Ctrl-D then Ctrl-\`) to have the new shell settings take effect."
 }
-
+export KUBECONFIG=$HOME/teched2020-developer-keynote/kubeconfig.yml
 main "$@"
